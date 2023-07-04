@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial;
+}
+@media ( min-width: 250px ) and (max-width: 845px){
+    figure .dobraUm{
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+}
+figure .dobraUm{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.conteudo-dois{
+    display: flex;
+
+}
+.pagDoisText{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+figure .dobraDois{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    padding: 1rem;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 0.1rem;
+    background: linear-gradient(#83d86e,#156415 );
+}
